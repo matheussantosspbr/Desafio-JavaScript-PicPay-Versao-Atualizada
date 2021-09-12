@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #21C25E;
+    color: rgb(255, 255, 255);
+    font: normal 20px Arial;
+}
+p {
+    color: black;
+    font: normal 20px Arial;
+}
+
+.grupo {
+    background-color: white;
+    border: 0px solid #000000;
+    height: 440px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+label{
+    color: black;
+    font: normal 17px Arial;
+    display: block;
+}
+
+button, select{
+cursor: pointer;
+
+}
+
+button {
+font-family: sans-serif;
+font-size: 1em;
+color: #21C25E;
+border-radius: 20px;
+border: 0px;
+background-color: #000000;
+height: 40px;
+width: 120px;
+}
+
+fieldset.grupo .campo {
+position: center;
+float: left;
+margin-right: 9em;
+}
+
+.campo label {
+margin-bottom: 0.2em;
+float: left;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+padding: 0.2em;
+border: 1px solid #21C25E;
+box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+display: block;
+
+}
+input{
+    text-align: left;
+    border: 1px;
+    border-radius: 50px;
+    width: 120px;
+    height: 20px;
+    
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+#nome, #email, #linkedin,#git{
+    width: 350px;
+    height: 25px;
+    position: left;
+}
+
+#calendario{
+    width: 150px;
+    height: 25px;
+}
+
+#dev, #idade{
+text-align: left;
+border-radius: 50px;
+width: 150px;
+height: 25px;
+display: table;
+}
+
+.campo {
+    margin-bottom: 7px;
+}
+
+fieldset.grupo .campo {
+    float:  center;
+    margin-right: 1em;
+}
+
+input, select, textarea  {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+fieldset[id="idev"]{
+    float: left;
+    display: block;
+    border: 0px;
+}
+
+#tudo {
+    height: 440px;
+    width: 400px;
+    display: block;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px;
+}
+
+#Equipe {
+    border: 0px;
+    width: 1000px;
+    height: 100px;
+}
